@@ -1,0 +1,23 @@
+{
+  "format": "copyledger-report-v1",
+  "matched": 1,
+  "missing": [
+    "missing.txt",
+    "notes.txt"
+  ],
+  "changed": [
+    "report.txt"
+  ],
+  "extra": [
+    "extra.txt",
+    "renamed-notes.txt"
+  ],
+  "possible_moves": [
+    {
+      "before": "notes.txt",
+      "after": "renamed-notes.txt"
+    }
+  ],
+  "scan_issues": [],
+  "exact_match": false
+}

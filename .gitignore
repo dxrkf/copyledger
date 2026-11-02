@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/receipt.json
+/review.html
+/report.json
+/private-data/

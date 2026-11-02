@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'"><title>CopyLedger review</title><style>body{background:#101827;color:#e2e8f0;font:17px system-ui;max-width:1000px;margin:50px auto;padding:24px}h1{color:#5eead4}pre{background:#1c2a40;border-radius:16px;padding:24px;white-space:pre-wrap;overflow-wrap:anywhere}</style><h1>CopyLedger / copy verification</h1><p>Read-only comparison of regular file bytes and relative paths. Possible moves require review.</p><pre>{
+  &quot;format&quot;: &quot;copyledger-report-v1&quot;,
+  &quot;matched&quot;: 1,
+  &quot;missing&quot;: [
+    &quot;missing.txt&quot;,
+    &quot;notes.txt&quot;
+  ],
+  &quot;changed&quot;: [
+    &quot;report.txt&quot;
+  ],
+  &quot;extra&quot;: [
+    &quot;extra.txt&quot;,
+    &quot;renamed-notes.txt&quot;
+  ],
+  &quot;possible_moves&quot;: [
+    {
+      &quot;before&quot;: &quot;notes.txt&quot;,
+      &quot;after&quot;: &quot;renamed-notes.txt&quot;
+    }
+  ],
+  &quot;scan_issues&quot;: [],
+  &quot;exact_match&quot;: false
+}</pre></html>
